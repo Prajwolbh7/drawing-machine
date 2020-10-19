@@ -16,7 +16,7 @@ let ydirection = 1; // Top to Bottom
 
 function setup() {
 
-  createCanvas(1000, 600);
+  createCanvas(1500, 600);
   //background(255,0,133);
   background(255);
   strokeWeight(5);
@@ -28,7 +28,7 @@ function setup() {
   ypos = height / 2;
   fill(0);
   textSize(34);
-  text('Click to Start', 400,300);
+  text('Click to Start', 600,300);
 
 }
 
@@ -66,16 +66,16 @@ function draw() {
      ellipse(random(900), random(600), 15, 15);
      ellipse(random(900), random(600), 15, 15);
      ellipse(random(900), random(600), 15, 15);
-     ellipse(random(900), random(600), 15, 15);
-     ellipse(random(500), random(500), 15, 15);
-     ellipse(random(600), random(600), 15, 15);
-     ellipse(random(700), random(600), 15, 15);
-     ellipse(random(800), random(600), 15, 15);
-     ellipse(random(900), random(600), 15, 15);
-     ellipse(random(900), random(600), 15, 15);
-     ellipse(random(900), random(600), 15, 15);
-     ellipse(random(900), random(600), 15, 15);
-     ellipse(random(900), random(600), 15, 15);
+     ellipse(random(1500), random(600), 15, 15);
+     ellipse(random(1500), random(500), 15, 15);
+     ellipse(random(1500), random(600), 15, 15);
+     ellipse(random(1500), random(600), 15, 15);
+     ellipse(random(1400), random(600), 15, 15);
+     ellipse(random(1400), random(600), 15, 15);
+     ellipse(random(1400), random(600), 15, 15);
+     ellipse(random(1400), random(600), 15, 15);
+     ellipse(random(1400), random(600), 15, 15);
+     ellipse(random(1400), random(600), 15, 15);
      pop();
 
     //stroke(map(mouseX,0,600,0,255,true));
