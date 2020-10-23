@@ -20,7 +20,8 @@ function setup() {
 
   createCanvas(1500, 600);
   //background(255,0,133);
-  background(0);
+  //background(0);
+  drawGrid();
 
 
   frameRate(30);
@@ -28,7 +29,7 @@ function setup() {
   // Set the starting position of the shape
   xpos = width / 2;
   ypos = height / 2;
-  fill(255);
+  fill(0);
   textSize(34);
   text('Click to Start', 600, 300);
 
@@ -118,4 +119,22 @@ function keyTyped() {
     clear();
   }
   return false;
+}
+
+function drawGrid(){
+
+  numCells = 20;
+  fillColor = 255;
+  for (let i = 0; i<=width; i+= width/numCells){
+    for(let j = 0; j<= height; j += height/numCells){
+      if(fillColor === 255){
+        fillColor = 200;
+      }else {
+        fillColor = 255;
+      }
+      fill(fillColor);
+      rect(i, j,width/numCells,height/numCells)
+    }
+
+  }
 }
