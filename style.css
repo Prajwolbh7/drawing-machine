@@ -4,6 +4,7 @@ html, body {
   background-image: url(images/bg_2.jpg);
   font-family: "Times New Roman", Times, serif;
   background-color: #fcba03;
+  text-align: center;
 
 }
 canvas {
