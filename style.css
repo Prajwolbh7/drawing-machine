@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   background-image: url(images/bg_2.jpg);
   font-family: "Times New Roman", Times, serif;
-  color: #8fffff;
+  background-color: #8fffff;
 
 }
 canvas {
